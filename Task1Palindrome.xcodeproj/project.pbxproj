@@ -15,6 +15,7 @@
 		0297F73B2530C8940027ABFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0297F7392530C8940027ABFB /* LaunchScreen.storyboard */; };
 		0297F7462530C8940027ABFB /* Task1PalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297F7452530C8940027ABFB /* Task1PalindromeTests.swift */; };
 		0297F7512530C8950027ABFB /* Task1PalindromeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297F7502530C8950027ABFB /* Task1PalindromeUITests.swift */; };
+		0297F7622530C8E90027ABFB /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297F7612530C8E90027ABFB /* InputValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0297F74C2530C8950027ABFB /* Task1PalindromeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Task1PalindromeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0297F7502530C8950027ABFB /* Task1PalindromeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1PalindromeUITests.swift; sourceTree = "<group>"; };
 		0297F7522530C8950027ABFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0297F7612530C8E90027ABFB /* InputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				0297F72E2530C8940027ABFB /* AppDelegate.swift */,
+				0297F7612530C8E90027ABFB /* InputValidator.swift */,
 				0297F7302530C8940027ABFB /* SceneDelegate.swift */,
 				0297F7322530C8940027ABFB /* ViewController.swift */,
 				0297F7342530C8940027ABFB /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0297F7332530C8940027ABFB /* ViewController.swift in Sources */,
+				0297F7622530C8E90027ABFB /* InputValidator.swift in Sources */,
 				0297F72F2530C8940027ABFB /* AppDelegate.swift in Sources */,
 				0297F7312530C8940027ABFB /* SceneDelegate.swift in Sources */,
 			);
